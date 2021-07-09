@@ -115,7 +115,7 @@ dojo = {
 
 def printInfo(someDict):
     for arrList in someDict:
-        print(len(arrList), arrList)
+        print(len(someDict[arrList]), arrList)
         for listings in dojo[arrList]:
             print(listings)
 
